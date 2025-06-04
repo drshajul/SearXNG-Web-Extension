@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "SearXNG — Privacy Search Engine",
+  "name": "SearXNG — Search Engine",
   "version": "1.5",
-  "author": "Erghel",
+  "author": "DrShajul",
   "default_locale": "en",
-  "description": "__MSG_extensionDescription__",
+  "description": "Self-hosted SearXNG search engine",
   "icons": {
     "48": "searxng48.webp"
   },
@@ -20,9 +20,9 @@
     "search_provider": {
       "name": "SearXNG",
       "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://searx.be/search?q={searchTerms}",
+      "search_url": "https://search.doctorlife.in/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
+      "suggest_url": "https://search.doctorlife.in/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
